@@ -1,11 +1,11 @@
-package kotlin.com.learningproj
+package com.example.demo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class LearningprojApplication
+class DemoApplication
 
 fun main(args: Array<String>) {
-	runApplication<LearningprojApplication>(*args)
+	runApplication<DemoApplication>(*args)
 }
